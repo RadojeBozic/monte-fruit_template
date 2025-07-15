@@ -1,0 +1,15 @@
+{
+    "name": "webkul/notification",
+    "autoload": {
+        "psr-4": {
+            "Webkul\\Notification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\Notification\\Providers\\ModuleServiceProvider"
+            ]
+        }
+    }
+}
