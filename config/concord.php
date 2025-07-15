@@ -26,6 +26,8 @@ return [
         \Webkul\GDPR\Providers\ModuleServiceProvider::class,
         \Webkul\BookingProduct\Providers\ModuleServiceProvider::class,
         \Webkul\DataTransfer\Providers\ModuleServiceProvider::class,
+        \Webkul\DataGrid\Providers\ModuleServiceProvider::class,
+        
         
     ]
 ];

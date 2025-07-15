@@ -1,8 +1,9 @@
 # Monte Fruit
 
-![Monte Fruit Screenshot](docs/screenshots/screenshot-homepage.jpg)
-
-Laravel e-commerce platforma za prodaju voća, povrća i prirodnih proizvoda, bazirana na Bagisto frameworku.
+<p align="center">
+  <img src="docs/screenshots/screenshot-homepage.jpg" alt="Monte Fruit Screenshot" width="800">
+</p>
+**Laravel e-commerce platforma za prodaju voća, povrća i prirodnih proizvoda, bazirana na Bagisto frameworku.**
 
 ## ✨ Funkcionalnosti
 - ✔️ Pregled i filtriranje proizvoda
@@ -21,8 +22,8 @@ Laravel e-commerce platforma za prodaju voća, povrća i prirodnih proizvoda, ba
 
 ## 🚀 Instalacija
 
-git clone https://github.com/RadojeBozic/monte-fruit.git
-cd monte-fruit
+git clone https://github.com/RadojeBozic/monte-fruit_template.git
+cd monte-fruit_template
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -42,7 +43,7 @@ MySQL
 
 🌍 URL
 
-http://localhost:8082/monte-fruit/public/
+http://localhost:8082/monte-fruit_template/public/
 📂 Struktura projekta
 resources/lang/vendor/shop/sr/app.php – srpski prevodi za frontend
 
@@ -60,5 +61,5 @@ Bagisto je open-source i dostupan pod MIT licencom.
 Zasnovano na Bagisto platformi (MIT).
 👤 Autor
 Radoje Božić – Full Stack Developer
-📧 admin@montefruit.rs
+📧 radojebozic1966@gmail.com
 GitHub: @RadojeBozic
